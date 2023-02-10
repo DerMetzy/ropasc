@@ -1,2 +1,2 @@
 # ropasc
-Progetto del gioco "sasso, carta, forbice" in Javascript per The Odin Project
+Basic Rock, Paper, Scissors game made for "The Odin Project" course.
