@@ -5,17 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="ropasc.js" defer></script>
 </head>
 <body>
-    <h1>Sasso, carta, forbici.</h1>
-    
-    
-    
-    <button onclick="test()">Punteggio</button>
-    <button onclick="playRound()">Gioca un round</button>
-    <button onclick="game()">Gioca al meglio di 5!</button>
-    <button onclick="console.clear()">Pulisci console</button>
-    
-    <script src="js/ropasc.js"></script>
+    <h1>Rock, Paper, Scissors</h1>
+    <div id="display">
+        <div id="action">Seleziona il tuo oggetto, poi premi playRound.</div>
+        <h2 id="score">Score: </h3>
+    </div>
+    <br>
+    <div id="game">
+        <button id="sasso" class="play">Rock</button>
+        <button id="carta" class="play">Paper</button>
+        <button id="forbici" class="play">Scissors</button>
+    </div>
+    <br>
+    <div id="utility">
+        <!--<button id="buttonScore" class="util">Score</button>-->
+        <button id="round" class="util">Nuova partita</button>
+        <!--<button id="match" class="util">Play a match of five rounds</button>-->
+    </div>
 </body>
 </html>
